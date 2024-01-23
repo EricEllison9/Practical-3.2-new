@@ -1,0 +1,19 @@
+---
+title: "New Rmarkdown Doc"
+author: "Eric Ellison"
+date: "2024-01-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Question 5
+
+Going to save the file and stage it.
+By doing this, have to click on the __Git__ tab in the environment and tick the __Staged__ box under the document. 
+
+# Question 6
+
+Create a new commit including the new file and push it to github (check on github that it works)
