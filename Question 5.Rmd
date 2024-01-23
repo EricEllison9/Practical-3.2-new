@@ -46,17 +46,4 @@ library(palmerpenguins)
 head(penguins)
 ```
 
-Now for the graph
 
-```{r, fig.cap = "Distribution of body mass by species of penguins:"}
-ggplot(data = penguins) +
-  aes(x = body_mass_g) +
-  geom_histogram(aes(fill = species),
-                 alpha = 0.5,
-                 position = "identity") +
-  scale_fill_manual(values = c("darkorange", "purple", "cyan4")) +
-  theme_minimal() +
-  labs(x = "Body mass (g)",
-       y = "Frequency",
-       title = "Penguin Body Mass")
-```
