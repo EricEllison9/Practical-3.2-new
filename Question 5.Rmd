@@ -34,4 +34,16 @@ Make a new commit (with a meaningful message), and push to github.
 
 Meaningful Message: "_Would you rather be feared or loved? Easy, both. I want people to be afraid of how much they love me_" - Micheal Scott
 
+## Question 9
+
+Create a new branch, and add a new section to the rmarkdown file in this branch. Whatever you want. I would suggest a graph of the data. 
+
+### New Section
+
+I'm gonna make a graph of the data
+```{r}
+library(palmerpenguins)
+head(penguins)
+```
+
 
