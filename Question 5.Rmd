@@ -9,11 +9,29 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Question 5
+## Question 5
 
 Going to save the file and stage it.
 By doing this, have to click on the __Git__ tab in the environment and tick the __Staged__ box under the document. 
 
-# Question 6
+## Question 6
 
 Create a new commit including the new file and push it to github (check on github that it works)
+
+## Question 7
+
+Edit the file. Delete everything after line 12. Add a new section title, simplet text and text in bold font. Then knit and compile.
+
+I already did that so just gonna add another section title, simple textk, and text in bold then knit and compile. 
+
+### New section title
+
+Some simple text and __some text in bold__
+
+## Question 8
+
+Make a new commit (with a meaningful message), and push to github.
+
+Meaningful Message: "_Would you rather be feared or loved? Easy, both. I want people to be afraid of how much they love me_" - Micheal Scott
+
+
